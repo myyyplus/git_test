@@ -1,0 +1,14 @@
+
+##应用名称
+spring:
+  application:
+    name: eureka-consumer
+##声明当前eurekaservice的端口号
+server:
+  port: 8890
+##配置eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+
