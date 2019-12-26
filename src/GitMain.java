@@ -4,6 +4,7 @@ public class GitMain {
         System.out.println("master分支!");
         System.out.println("master合并！");
         System.out.println("更新远程仓库来吧老弟");
+        System.out.println("再次更新远程仓库");
     }
 }
 
